@@ -1,36 +1,12 @@
-# Pangisha +
+# React + Vite
 
-Welcome to Pangisha+, a modern real estate web application built with React and Vite. This project is a starter template for those interested in building or styling a real estate app.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features
-Responsive Design: Enjoy a consistent experience across all devices.
-Interactive Dashboard: Easily browse and query real estate listings.
-Detailed Listings: In-depth property information with images and descriptions.
-Getting Started
-Prerequisites
-Node.js (version 14 or above)
-npm (version 6 or above) or yarn
-Installation
-Clone the repository:
+Currently, two official plugins are available:
 
-Copy
-git clone https://github.com/yourusername/pangisha.git
-cd pangisha
-Install dependencies:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Copy
-npm install
-# or
-yarn install
-Run the development server:
+## Expanding the ESLint configuration
 
-Copy
-npm run dev
-# or
-yarn dev
-Open your browser and navigate to http://localhost:5173 to see the app in action.
-
-
-This project is licensed under the MIT License.
-
-
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
